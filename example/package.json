@@ -1,0 +1,23 @@
+{
+	"name": "esbuild-plugin-obsidian-example",
+	"description": "An example plugin.",
+	"version": "1.0.0",
+	"author": "eth-p <me+npm@eth-p.dev> (https://eth-p.dev)",
+	"private": true,
+	"obsidian": {
+		"name": "Example Plugin",
+		"isDesktopOnly": false,
+		"minAppVersion": "1.1"
+	},
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production"
+	},
+	"devDependencies": {
+		"builtin-modules": "^3.3.0",
+		"esbuild": "^0.17.16",
+		"esbuild-plugin-obsidian": "../",
+		"obsidian": "1.2.3",
+		"typescript": "^5.0.4"
+	}
+}

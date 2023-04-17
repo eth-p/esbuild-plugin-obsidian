@@ -1,0 +1,10 @@
+{
+  "id": "esbuild-plugin-obsidian-example",
+  "version": "1.0.0",
+  "name": "Example Plugin",
+  "isDesktopOnly": false,
+  "minAppVersion": "1.1",
+  "description": "An example plugin.",
+  "author": "eth-p",
+  "authorUrl": "https://eth-p.dev"
+}

@@ -1,0 +1,22 @@
+# Development
+node_modules
+.*
+build.mts
+tsconfig.json
+*.config.mjs
+
+# Sources
+/src
+
+# Examples
+/example
+
+# System
+.DS_Store
+._*
+
+# IDEs
+.vscode
+*.code-workspace
+.idea
+*.iml
